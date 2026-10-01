@@ -1,8 +1,6 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
-    "regions": [
-        "hnd1"
-    ],
+    "regions": ["hnd1"],
     "builds": [
         {
             "src": "/api/index.php",
@@ -37,7 +35,7 @@
     ],
     "env": {
         "APP_NAME": "Laravel Vercel",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
