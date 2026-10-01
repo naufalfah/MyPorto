@@ -14,7 +14,7 @@
 
         {{-- Left: Photo --}}
         <div class="lg:col-span-2">
-            <div class="rounded-2xl overflow-hidden border border-neutral-800/60 aspect-[3/5]">
+            <div class="rounded-2xl overflow-hidden border border-neutral-800/60 aspect-[3/5    ]">
                 <img src="{{ asset('foto/naufal.JPG') }}"
                      alt="{{ $nama }}"
                      class="w-full h-full">
@@ -46,6 +46,18 @@
                         Saat ini saya masih terus berkembang dan membangun pengalaman. Ke depan, saya ingin jadi programmer
                         yang kompeten dan bisa menghasilkan project yang bermanfaat.
                     </p>
+                </div>
+                <div class="flex gap-5">
+                    <a href="https://www.linkedin.com/in/muhammad-naufal-fahrezi-a20375440?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="flex mt-3 gap-5 items-center">
+                        <div class="flex items-center px-3 py-3 text-xs gap-2 font-medium rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-amber-500/40 hover:text-amber-400 transition-colors duration-200">
+                            <img src="{{asset('foto/LI.png')}}" class="w-7" alt=""> LinkedIn
+                        </div>
+                    </a>
+                    <a href="https://github.com/naufalfah" class="flex mt-3 gap-5 items-center">
+                        <div class="flex items-center px-3 py-3 text-xs gap-2 font-medium rounded-lg bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-amber-500/40 hover:text-amber-400 transition-colors duration-200">
+                            <img src="{{asset('foto/GH.png')}}" class="w-6.5" alt=""> Github
+                        </div>
+                    </a>
                 </div>
             </section>
 
