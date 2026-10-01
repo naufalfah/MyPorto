@@ -18,9 +18,4 @@ return Application::configure(basePath: dirname(__DIR__))
         $exceptions->shouldRenderJsonWhen(
             fn(Request $request) => $request->is('api/*') || $request->expectsJson(),
         );
-
-        // SEMENTARA: cetak pesan error singkat ke log
-        $exceptions->report(function (Throwable $e) {
-            error_log('ERR: ' . get_class($e) . ' | ' . $e->getMessage());
-        });
     })->create();
