@@ -17,6 +17,10 @@
             "dest": "/public/build/assets/$1"
         },
         {
+            "src": "/foto/(.*)",
+            "dest": "/public/foto/$1"
+        },
+        {
             "src": "/favicon.(.*)",
             "dest": "/public/favicon.$1"
         },
@@ -31,10 +35,6 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        },
-        {
-            "src": "/foto/(.*)",
-            "dest": "/public/foto/$1"
         }
     ],
     "env": {
