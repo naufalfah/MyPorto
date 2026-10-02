@@ -31,6 +31,10 @@
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+        {
+            "src": "/foto/(.*)",
+            "dest": "/public/foto/$1"
         }
     ],
     "env": {
